@@ -1,0 +1,79 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box; /* Better layout control */
+}
+
+body {
+    background-color: #2eb804;
+    text-align: center;
+    font-family: Arial, sans-serif; /* Adds a basic font */
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(167, 24, 24, 0.3); /* Fixed typo */
+    font-size: 8vmin;
+    color: #8912ce;
+    background-color: #d0f046; /* Buttons visible without text */
+    cursor: pointer; /* Pointer on hover */
+}
+
+/* Reset Button Styling */
+#reset-btn {
+    padding: 3rem;
+    font-size: 1.3rem;
+    background-color: #d3189e;
+    color: #eaf3f0;
+    border-radius: 10rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem; /* Adjusted margin */
+}
+
+#reset-btn:hover {
+    background-color: #3498c7; /* Hover effect */
+}
+
+/* New Game Button */
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #d320ac;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* Message Styling */
+#msg {
+    color: #ffffc7;
+    font-size: large;
+}
+
+/* Message Container Styling */
+.msg-container {
+    display: none; /* Hide message container initially */
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
